@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>寻找四叶草小游戏</title>
+    <link rel="stylesheet" href="bass.css"/>
+</head>
+<body>
+	
+    <div class="nav">小游戏：【寻找四叶草】</div>
+    <!-- 游戏主体部分 -->
+	<div class="main">
+		<div class="left-content">
+            <div class="rule-name">规则说明</div>
+		    <div class="rule">
+              1、游戏计时3分钟<br>
+              2、双击三叶草可删除<br>
+              3、找到四叶草可长按鼠标拖动至下方【找到四叶草】篮筐中，计数会自动增加<br>
+              4、找到所有四叶草，点击右下方【完成】按钮，游戏结束
+            </div>
+            <div class="baseket">
+                <div class="find">找到四叶草</div>
+                <img src="images/basket.png" alt="">
+            </div>		
+		</div>
+		<div class="content">
+		   <div class="range">
+		         <img src="images/3f.png" class="leaf">
+		         <img src="images/4f.png" class="leaf">
+		   </div>
+		</div>
+		<div class="right-content">
+            <ul>
+                <li>
+                    <button class="bt-start" >倒计时开始</button>
+                    <div class="time">距离游戏结束：<br>03分00秒</div>
+                </li>
+                <li><button class="right-reset"><a href="LuckyGrass.html">刷新重启</a></button></li>
+                <li>
+                    <button>计数</button>
+                    <div class="count-number">已找到：<br>0个</div>
+                </li>
+                <li><button class="right-finish">完成</button></li>
+            </ul>
+		</div>
+        <div class= "author">
+            <strong>设计师：刘诗琴</strong><br>
+            联系方式：邮箱306749392@qq.com <br>
+            CSDN: <a href="https://blog.csdn.net/cindy647" target="_blank">https://blog.csdn.net/cindy647</a>
+        </div>
+    </div>
+    <!-- 鼠标跟随小图标 -->
+	<img src="images/4f.png" class="mouse-img">
+ 
+</body>
+</html>
+<script src="main.js"> </script>
+<script src="store.js"></script>
